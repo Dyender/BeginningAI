@@ -17,6 +17,13 @@
 3. Установить библиотеки: pip install -r requirements.txt
 4. Открыть notebooks/lab1.ipynb в PyCharm и выбрать интерпретатор .venv\Scripts\python.exe
 
+Для Windows PowerShell команды установки и проверки можно выполнять без активации окружения:
+
+```powershell
+& .\.venv\Scripts\python.exe -m pip install -r requirements.txt
+& .\.venv\Scripts\python.exe -m pip show pandas
+```
+
 ## Сравнение PyCharm и Google Colab
 
 | Параметр | PyCharm (локально) | Google Colab |
