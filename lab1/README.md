@@ -13,4 +13,4 @@
 1. Создать окружение: python -m venv .venv
 2. Включить окружение: .venv\Scripts\activate (macOS и Linux: source .venv/bin/activate)
 3. Установить библиотеки: pip install -r requirements.txt
-4. Открыть notebooks/lab1.ipynb в VS Code и выбрать ядро .venv
+4. Открыть notebooks/lab1.ipynb в PyCharm и выбрать интерпретатор .venv\Scripts\python.exe
